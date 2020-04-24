@@ -34,5 +34,5 @@ echo '集成diy目录'
 ln -s ../../diy ./package/openwrt-packages
 
 echo '首页增加CPU频率动态显示'
-cp -f ../diy/mod-index.htm ./package/lean/autocore/files/index.htm
+cp -f ../diy/mod-index.htm ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
 
