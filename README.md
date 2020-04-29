@@ -17,7 +17,11 @@
 
 如果你只想使用固件,可以在本项目的actions下下载最新编译的固件.
 
-![Build G-DOCK](https://github.com/Cathgao/GDOCK/workflows/Build%20G-DOCK/badge.svg)
+<p>
+    <a href="https://github.com/Cathgao/GDOCK-Cath/actions">
+            <img src="https://github.com/Cathgao/GDOCK-Cath/workflows/Build%20G-DOCK/badge.svg"/>
+        </a>
+</p>
 
 将本项目fork到自己账号下,进行以下操作即可得到专属定制固件
 
