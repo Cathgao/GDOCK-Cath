@@ -1,13 +1,11 @@
 #=================================================
 #   Description: Build G-DOCK FROM LEAN'S LEDE
-#   Author: JK
+#   Author: JK/Cath
 #=================================================
 
 name: Build G-DOCK
 
 on: 
-  watch:
-    types: started
   release:
     types: [published]
   push:
