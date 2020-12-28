@@ -30,6 +30,9 @@ git clone https://github.com/tty228/luci-app-serverchan ../diy/luci-app-serverch
 echo '下载AdGuard Home'
 git clone https://github.com/rufengsuixing/luci-app-adguardhome ../diy/luci-app-adguardhome
 
+echo 'JD script'
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus ../diy/luci-app-jd-dailybonus
+
 echo '集成diy目录'
 ln -s ../../diy ./package/openwrt-packages
 
