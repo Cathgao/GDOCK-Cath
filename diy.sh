@@ -32,7 +32,7 @@ svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome 
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/adguardhome ../diy/luci-app-adguardhome
 
 echo 'JD script'
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus ../diy/luci-app-jd-dailybonus
+git clone https://github.com/Cathgao/luci-app-jd-dailybonus ../diy/luci-app-jd-dailybonus
 
 echo '集成diy目录'
 ln -s ../../diy ./package/openwrt-packages
