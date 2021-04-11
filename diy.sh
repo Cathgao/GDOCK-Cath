@@ -16,8 +16,8 @@ sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/theme
 
 echo '删除旧版argon,链接新版'
 rm -rf ./package/lean/luci-theme-argon
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-argonv3 ../diy/luci-theme-argonv3
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-argon-config ../diy/luci-argon-config
+git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon ../diy/luci-theme-argon
+git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config ../diy/luci-app-argon-config
 #ln -s ../../../luci-theme-argon ./package/lean/
 
 echo '修改wifi名称'
@@ -31,8 +31,8 @@ echo '下载ServerChan'
 git clone https://github.com/tty228/luci-app-serverchan ../diy/luci-app-serverchan
 
 echo '下载AdGuard Home'
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-adguardhome
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/AdGuardHome
+svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome ../diy/luci-app-adguardhome 
+svn co https://github.com/kenzok8/openwrt-packages/trunk/AdGuardHome ../diy/AdGuardHome
 
 #echo 'JD script'
 #git clone https://github.com/Cathgao/luci-app-jd-dailybonus ../diy/luci-app-jd-dailybonus
