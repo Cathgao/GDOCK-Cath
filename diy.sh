@@ -15,9 +15,9 @@ sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/theme
 
 
 echo '删除旧版argon,链接新版'
-rm -rf ./package/lean/luci-theme-argon
-git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon ../diy/luci-theme-argon
-git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config ../diy/luci-app-argon-config
+#rm -rf ./package/lean/luci-theme-argon
+#git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon ../diy/luci-theme-argon
+#git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config ../diy/luci-app-argon-config
 #ln -s ../../../luci-theme-argon ./package/lean/
 
 echo '修改wifi名称'
